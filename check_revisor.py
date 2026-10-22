@@ -7,9 +7,6 @@ What does LangGraph persistence do?
 Previous answer:
 LangGraph persistence refers to saving the model's state, such as parameters or training data.
 
-Critique:
-Missing: whether it handles model weights or training logs.
-Unnecessary: mention of 'framework design'.
 
 Search results (sample test data):
 [1] Source: https://docs.langchain.com/oss/python/langgraph/persistence

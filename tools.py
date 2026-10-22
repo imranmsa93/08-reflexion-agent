@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 load_dotenv()
 from langchain_tavily import TavilySearch
 
-tavily = TavilySearch(max_results =1)
+tavily = TavilySearch(max_results = 2 )
 
 def perform_search(queries:list[str]) -> str:
     blocks = []
