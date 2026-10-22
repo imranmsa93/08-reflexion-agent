@@ -657,5 +657,3 @@ Then run the matching `check_*.py` script after each one.
 ---
 
 ## License
-
-Add a license of your choice before publishing.
