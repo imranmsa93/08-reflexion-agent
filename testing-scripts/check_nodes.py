@@ -1,3 +1,8 @@
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 from nodes import responder_node, execute_tools_node, revisor_node
 
 state = {"question": "What does LangGraph persistence do?"}
