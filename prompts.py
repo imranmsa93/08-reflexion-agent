@@ -8,7 +8,7 @@ RESPONDER_SYSTEM = (
     "- reflection.superfluous: ONE sentence about what is unnecessary, or 'nothing'.\n"
     "- search_queries: 1 to 3 queries written as plain words separated by spaces, "
     "for example: LangGraph checkpointer persistence. No hyphens.\n"
-    "If you are not sure about a fact, say so in the answer instead of guessing."
+    "If you are not sure about a fact, say no in the answer instead of guessing."
 )
 
 responder_prompt = ChatPromptTemplate.from_messages([
@@ -18,7 +18,7 @@ responder_prompt = ChatPromptTemplate.from_messages([
 
 REVISOR_SYSTEM = (
     "You are an expert researcher revising an answer. You will receive the question, "
-    "your previous answer, and web search results. Fill in the fields:\n"
+    "you previous answer, and web search results. Fill in the fields:\n"
     "- answer: 2 to 4 plain sentences. Rebuild the answer from the search results. "
     "Use ONLY facts the search results support, and delete any sentence from the "
     "previous answer that they do not support. Explain the core concept first. "
